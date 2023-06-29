@@ -1,0 +1,38 @@
+1. Install 100% trusted software, download it to PHP.Net.
+
+• Windows downloads link.
+
+• "Zip" file download.
+
+• Extract downloaded file.
+
+• Rename just "php"
+
+2. Move extracted files to 
+
+• Primary disk "(C:)" -> "Program files".
+
+3. Check if Windows recognize file system.
+
+• Go to "Windows Power Shell".
+
+• Type "php --version" and check if windows recognize file system.
+
+• Windows must display php version.
+
+3.1. If windows doesn't recognize the Php version.
+
+• Go to "Edit the system environment variables".
+
+• Go to "Environment variables".
+
+• Find "Path" -> and click "Edit" button.
+
+• Put the php location to recognize with Windows OS. (ex.)
+
+ - C:\Program Files\php and save.
+
+3.2. If the "php.exe" error occured.
+
+• Download latest "Visual C++ Redistributable 2015-2022" under prefered system architecture.
+4.
